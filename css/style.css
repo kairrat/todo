@@ -102,7 +102,7 @@ margin: 0 auto;
 
 
 .box    {
-    width: 100%;
+    width: 25rem;
     height: 50px;
     background-color: #fff;
     display: flex;
@@ -111,9 +111,9 @@ margin: 0 auto;
    
 
 }
+
 .box_input  {
-    width: 300px;
-    height: 40px;
+    
     background: none;
     border: none;
     outline: none;
@@ -149,4 +149,9 @@ margin: 0 auto;
 }
 .check:hover   {
     cursor: pointer;
+}
+
+.label {
+    font-size: 1.4rem;
+    padding: 0.8rem 1rem;
 }
